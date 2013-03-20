@@ -1,2 +1,6 @@
 markdown: redcarpet
 pygments: true
+exclude:
+  - CONTRIBUTING.md
+  - AUTHORS.md
+  - README.md
