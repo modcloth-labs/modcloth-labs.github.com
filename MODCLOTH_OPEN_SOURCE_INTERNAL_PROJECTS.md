@@ -1,1 +1,0 @@
-# ModCloth Open Source internal projects recommendations
