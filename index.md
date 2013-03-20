@@ -6,6 +6,15 @@ layout: default
 ModCloth Open Source
 ====================
 
+ - [Releasing](#releasing)
+ - [Docs](#docs)
+ - [Licensing](#licensing)
+ - [Contribution Guidelines](#contribution-guidelines)
+ - [Authors](#authors)
+ - [Versioning](#versioning)
+ - [Code quality](#code-quality)
+ - [Planning for the future](#planning-for-the-future)
+
 These are the recommended minimum standards for open source code that
 has been developed (was born) at ModCloth.  They should not be
 considered hard and fast rules, but effort should be given to meeting
@@ -16,7 +25,7 @@ As with IETF and W3C documents, this document makes use of **MUST** and
 **SHOULD** to indicate levels of importance.  Breaking from
 recommendations that use "**MUST**" should not be taken lightly.
 
-## The path to releasing
+## <a id="releasing"></a>Releasing
 
 Each project is assumed to have at least two major stages of development
 -- pre-release and post-release.  Reaching a stable API release of
@@ -44,7 +53,7 @@ it.
   - Don't forget to *star* the repo and encourage other interested parties
   to do likewise.
 
-## Docs
+## <a id="docs"></a>Docs
 
 Each repository **MUST** include a file named `README[.ext]`.
 
@@ -57,7 +66,7 @@ If not using the extensionless filename, e.g. `README` (which **SHOULD**
 be plain text), prefer `.md` or `.rst` or something else widely used and
 easily rendered or readable in source format.
 
-## License
+## <a id="licensing"></a>Licensing
 
 Each repository **MUST** include a file named `LICENSE[.ext]`.
 See also "[File naming and formatting](#file-naming-and-formatting)".
@@ -76,7 +85,7 @@ For code projects, the license **SHOULD** be the MIT License.
 For prose (non-code) projects, the license **SHOULD** be
 [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
-## Contribution Guidelines
+## <a id="contribution-guidelines"></a>Contribution Guidelines
 
 Each repository **SHOULD** include a file named `CONTRIBUTING[.ext]`.
 See also "[File naming and formatting](#file-naming-and-formatting)".
@@ -91,7 +100,7 @@ The contribution guidelines **SHOULD** include the following:
   request submitters know which branch to target.
   - What a pull request submitter should expect.
 
-## Authors
+## <a id="authors"></a>Authors
 
 Each repository **SHOULD** include a file named `AUTHORS[.ext]`.
 See also "[File naming and formatting](#file-naming-and-formatting)".
@@ -100,21 +109,21 @@ See also "[File naming and formatting](#file-naming-and-formatting)".
   original authors.  The names **SHOULD** be `Firstname Lastname` and the
   list **SHOULD** be alphabetized.
 
-## Versioning
+## <a id="versioning"></a>Versioning
 
 If applicable, each project **SHOULD** contain a version that follows
 the rules of [semver](http://semver.org/).
 
   - The first publicly-released version **SHOULD** be `0.1.0`.
 
-## Code quality
+## <a id="code-quality"></a>Code quality
 
 Determining quality standards for all project types is not in the scope
 of this document.  That being said, projects **SHOULD** have tests
 covering the functionality claimed in the project's design goals.  Gaps
 in test coverage **SHOULD** be (loudly) acknowledged.
 
-## Plan for the future
+## <a id="planning-for-the-future"></a>Planning for the future
 
 Continued maintenance and determining when a project should be
 "archived" are arguably as important as the pre-release and feature
@@ -128,3 +137,8 @@ Guidelines* section.
   - The design goals **SHOULD** be clearly stated *somewhere*, whether
   in the `README`, enumerated in a `TODO[.ext]` file, or captured as
   github issues.
+
+<hr>
+
+Copyright &copy; ModCloth, Inc.
+[Licensed CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
