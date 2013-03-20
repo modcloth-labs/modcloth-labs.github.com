@@ -1,3 +1,3 @@
-# Copyright (c) ModCloth, Inc.
+# Copyright &copy; ModCloth, Inc.
 
 Licensed Creative Commons - [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
